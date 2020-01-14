@@ -1,0 +1,15 @@
+CMakeCache.txt
+Makefile
+unitTest
+
+CMakeFiles/
+
+*.a
+*.o
+*.cmake
+*.tcl
+
+specs/specs
+lib/Catch2
+catch2.tar.gz
+
