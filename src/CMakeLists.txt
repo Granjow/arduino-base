@@ -8,8 +8,7 @@ set( TESTS
 )
 
 add_executable(unitTest spec/specs.cpp ${TESTS})
-target_link_libraries(unitTest Catch2::Catch2)
 
-#add_library(dimmer-ramp ac-triac-dimmer-single/dimmer-ramp.cpp)
-#target_link_libraries(unitTest Catch2::Catch2 dimmer-ramp)
+add_library(demo-library examples/demo.cpp)
+target_link_libraries(unitTest Catch2::Catch2 demo-library)
 

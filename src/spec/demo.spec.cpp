@@ -1,5 +1,5 @@
 #include "../lib/Catch2/single_include/catch2/catch.hpp"
-#include "../examples/demo.cpp"
+#include "../examples/demo.h"
 
 using Catch::WithinAbs;
 

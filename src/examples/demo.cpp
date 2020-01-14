@@ -1,15 +1,12 @@
-class Demo {
+#include "demo.h"
 
-public:
-		Demo() {
-		}
+Demo::Demo() {
+}
 
-    int doubleANumber(int input) {
-        return input*2;
-    }
+int Demo::doubleANumber(int input) {
+    return input*2;
+}
 
-    float squareAFloat(float input) {
-        return input*input;
-    }
-
-};
+float Demo::squareAFloat(float input) {
+    return input*input;
+}
